@@ -1,0 +1,25 @@
+Basic Installation Instructions
+================================
+
+To compile and build Anagram Solver, you need to have Qt4 libraries and qmake installed. You can do it by
+
+0. Requirements
+===============
+$ sudo apt-get install libqt4-dev
+
+1. Building 
+===========
+$ tar xvf ./anagramsolver-0.1.tar.gz
+$ cd ./anagramsolver-0.1
+$ qmake -config release
+$ make
+
+Note : The above steps will create an executable binary file at build/release/anagramsolver
+
+2. Installing (Optional)
+========================
+$ sudo make install
+
+4. Cleanup (Optional)
+=====================
+$ make clean
